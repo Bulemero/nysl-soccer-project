@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/styles/nysl_3.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div>
+            <img src="images/nysl_logo.png" alt="NYSL logo">
+        </div>
+
+        <div class="pageNAME">
+            <h1>Northside Youth Soccer League</h1>
+        </div>
+
+        <!-- <img src="images/design3_image1.jpg" alt="kids playing soccer"> -->
+
+        <div class="title">
+            <h3>Registration Form</h3>
+        </div>
+
+    </header>
+
+    <div class="main">
+
+        <nav>
+            <a href="index.html">Home</a>
+
+            <a href="aboutNYSL.html">About</a>
+
+            <a href="contactNYSL.html">Contact</a>
+
+            <a href="rules.html">Rules</a>
+
+            <a href="game_info.html">Game Information</a>
+
+            <a class="active" href="#">Registration</a>
+        </nav>
+
+<div class="content">
+        <form action="/show_data.html" method="get" target="_blank">
+            Player's First Name:<br>
+            <input type="text" name="firstname"     required><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Street Address:<br>
+            <input type="text" name="streetaddress"><br>
+            City:<br>
+            <input type="text" name="city"><br>
+            Zipcode:<br>
+            <input type="text" name="zipcode"><br>
+            Birth Date (mm/dd/yyyy):<br>
+            <input type="text" name="birthdate"><br><br>
+
+            Gender: <br>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female<br><br>
+
+            Grade: <br>
+            <input type="radio" name="grade" value="preschool" checked> Pre-School
+            <input type="radio" name="grade" value="1st" unchecked> 1st
+            <input type="radio" name="grade" value="2nd" unchecked> 2nd
+            <input type="radio" name="grade" value="3rd" unchecked> 3rd
+            <input type="radio" name="grade" value="4th" unchecked> 4th
+            <input type="radio" name="grade" value="5th" unchecked> 5th<br><br>
+
+            Parent/Guardian:<br>
+            <input type="text" name="parentguardian"><br>
+            Contact Phone:<br>
+            <input type="text" name="contactphone"><br>
+            Contact Email:<br>
+            <input type="text" name="contactemail"><br><br>
+
+            Which elementary schools do you live near?<br><br>
+            First Closest School:<br>
+            <select name="firstclosestschool">
+                <option value="ajkatzenmaie">AJ Katzenmaie</option>
+                <option value="greenbay">Greenbay</option>
+                <option value="howardayeager">Howard A Yeager</option>
+                <option value="marjoriephart">Marjorie P Hart</option>
+                <option value="northelementary">North Elementary</option>
+                <option value="southelementary">South Elementary</option>
+            </select><br><br>
+
+            Second Closest School:<br>
+            <select name="secondclosestschool">
+                <option value="ajkatzenmaie">AJ Katzenmaie</option>
+                <option value="greenbay">Greenbay</option>
+                <option value="howardayeager">Howard A Yeager</option>
+                <option value="marjoriephart">Marjorie P Hart</option>
+                <option value="northelementary">North Elementary</option>
+                <option value="southelementary">South Elementary</option>
+            </select><br><br>
+
+            What position(s) do you normally play? (check all that apply)<br><br>
+            <input type="radio" name="normal1" value="Forward" unchecked> Forward
+            <input type="radio" name="normal2" value="Defense" unchecked> Defense
+            <input type="radio" name="normal3" value="Midfield" unchecked> Midfield
+            <input type="radio" name="normal4" value="Goalkeeper" unchecked> Goalkeeper<br><br>
+
+            What position(s) do you want to play? (check all that apply)
+            <br><br>
+            <input type="radio" name="want1" value="Forward" unchecked> Forward
+            <input type="radio" name="want2" value="Defense" unchecked> Defense
+            <input type="radio" name="want3" value="Midfield" unchecked> Midfield
+            <input type="radio" name="want4" value="Goalkeeper" unchecked> Goalkeeper<br><br>
+
+            <input type="radio" name="already" value="alreadyhaveauniform" unchecked> Already have a uniform<br><br>
+            Jersey size:<br>
+            <input type="radio" name="jersey" value="youthsmall" unchecked> Youth small
+            <input type="radio" name="jersey" value="youthmedium" unchecked> Youth Medium
+            <input type="radio" name="jersey" value="youthlarge" unchecked> Youth Large
+            <input type="radio" name="jersey" value="small" unchecked> Small
+            <input type="radio" name="jersey" value="medium" unchecked> Medium
+            <input type="radio" name="jersey" value="large" unchecked> Large
+            <input type="radio" name="jersey" value="extralarge" unchecked> Extra-Large<br><br>
+
+            Shorts size:<br>
+            <input type="radio" name="shorts" value="youthsmall" unchecked> Youth small
+            <input type="radio" name="shorts" value="youthmedium" unchecked> Youth Medium
+            <input type="radio" name="shorts" value="youthlarge" unchecked> Youth Large
+            <input type="radio" name="shorts" value="small" unchecked> Small
+            <input type="radio" name="shorts" value="medium" unchecked> Medium
+            <input type="radio" name="shorts" value="large" unchecked> Large
+            <input type="radio" name="shorts" value="extralarge" unchecked> Extra-Large<br><br>
+
+            Permission to play:<br><br>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                sponsored activities, which transportation.</p><br>
+            <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                cancellation policy and agree to its terms. </p><br>
+
+            Parent/Guardian Signature:<br>
+            <input type="text" name="parentguardiansignature"><br>
+            Date:<br>
+            <input type="text" name="date"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

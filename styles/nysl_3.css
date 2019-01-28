@@ -1,0 +1,205 @@
+body {
+
+    margin: 0px 0px 0px 0px;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../images/design3_image1.jpg);
+    height: 365px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+header img {
+
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 15px 0px 0px 15px;
+}
+
+
+
+.pageNAME {
+
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    right: 10px;
+    top: -30px;
+    font-family: fantasy;
+    text-align: right;
+    font-size: 25px;
+    color: #033949;
+
+}
+
+.title {
+    text-align: center;
+    background-color: #8DDB40;
+    color: #033949;
+    font-size: 25px;
+    font-family: fantasy;
+    margin-top: 196px;
+    border-color: black;
+    border-style: solid;
+    line-height: 0%;
+
+
+}
+
+/* MAIN */
+
+.main {
+
+    display: inline-block;
+    background-color: black;
+    margin-top: 65px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #F9E27C;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+nav {
+    width: 15%;
+    font-family: fantasy;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+nav a {
+    border-style: solid;
+    background-color: #033949;
+    color: #F9E27C;
+    border-color: black;
+    text-decoration: none;
+    display: block;
+
+}
+
+.active {
+    background-color: #8DDB40;
+    border-top: none;
+    color: #033949;
+
+}
+
+.main p {
+
+    margin: 0px 0px 0px 275px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.main p1 {
+
+    max-width: 800px;
+    text-align: center;
+}
+
+.main h4 {
+
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+
+}
+
+.bold {
+
+    color: #8DDB40;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bolder {
+    color: #8DDB40;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.alpha {
+
+    list-style-type: lower-latin;
+}
+
+.square {
+
+    list-style-type: square;
+}
+
+.circle {
+    list-style-type: circle;
+
+}
+
+.content {
+    margin-top: -150px;
+
+}
+
+.rulesLIST {
+    overflow-y: scroll;
+    width: 900px;
+    height: 400px;
+    text-align: justify;
+    border-style: solid;
+    margin: 25px auto;
+}
+
+.contact {
+
+    margin-top: -110px;
+}
+
+.envelope {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.table {
+    display: flex;
+    flex-flow: column;
+    height: 600px;
+    width: 80%;
+    margin: 50px 0px 0px 120px;
+}
+
+
+.scopes {
+    text-decoration: underline;
+}
+
+.scopes2 th {
+    text-decoration: underline;
+}
+
+.secondtable {
+    height: 30px;
+}
+
+.locations {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    align-content: center;
+}
+
+.main2 {
+
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    font-family: sans-serif;
+    color: #F9E27C;
+    text-align: center;
+    padding-bottom: 50px;
+}

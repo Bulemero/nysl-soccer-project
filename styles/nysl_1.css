@@ -1,0 +1,62 @@
+h1 {
+    margin: 0px;
+}
+
+header {
+    background-image: url(../images/design1_image1.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+}
+
+.blacksubheader {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin: -30px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 85px;
+    top: 330px;
+
+}
+
+
+.inlineBlock {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+
+    padding-bottom: 12%;
+}
+
+nav {
+    vertical-align: top;
+    margin-top: 20px;
+    width: 20%;
+    margin-left: 35px;
+}
+
+
+.inlineBlock p {
+
+    margin: 0px 0px 0px 25px;
+    max-width: 800px;
+}
+
+.inlineBlock h4 {
+
+    margin: 20px 0px 0px 0px;
+
+}
