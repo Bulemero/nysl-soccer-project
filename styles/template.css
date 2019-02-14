@@ -50,17 +50,31 @@ header img {
 
 }
 
-.navbar {
-    overflow: hidden;
-    position: fixed;
+
+
+/* MAIN */
+
+.main {
+
+    display: inline-block;
+    background-color: black;
+    margin-top: 65px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #F9E27C;
+    text-align: center;
+    padding-bottom: 75px;
 }
 
 nav {
-    width: 15%;
+    width: 100%;
     font-family: fantasy;
     font-size: 20px;
     vertical-align: top;
     text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -81,20 +95,6 @@ nav a {
 
 }
 
-
-/* MAIN */
-
-.main {
-
-    display: inline-block;
-    background-color: black;
-    margin-top: 65px;
-    width: 100%;
-    font-family: sans-serif;
-    color: #F9E27C;
-    text-align: center;
-    padding-bottom: 75px;
-}
 
 
 .main p {
